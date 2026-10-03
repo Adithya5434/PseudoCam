@@ -1,0 +1,10 @@
+# Build output
+*.exe
+
+# Keep the embedded SoftCam installer
+!softcam/softcam_installer.exe
+
+# Editor / OS files
+.vscode/
+.idea/
+Thumbs.db
