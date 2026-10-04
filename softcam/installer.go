@@ -20,7 +20,7 @@ var embeddedInstaller []byte
 
 // CLSID softcam registers its DirectShow filter under.
 // Verify with regedit (HKEY_CLASSES_ROOT\CLSID) if IsInstalled() ever looks wrong.
-const softcamCLSID = `CLSID\{AEF3B972-5FA5-4647-9571-358EB472BC9E}\InprocServer32`
+const softcamCLSID = `CLSID\{F4C0CFDA-B57B-4E65-9892-C3A955BDB920}\InprocServer32`
 
 // dataDir is a permanent location: the registered DLL path is stored in the
 // registry, so the DLL must NOT live in a temp directory.
