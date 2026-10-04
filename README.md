@@ -92,4 +92,4 @@ Made by [adithya5434](https://github.com/adithya5434).
 
 ## License
 
-[MIT](LICENSE).
+[MIT](LICENSE). Third-party notices: [softcam/LICENSE](softcam/LICENSE).
