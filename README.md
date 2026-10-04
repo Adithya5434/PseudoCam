@@ -81,6 +81,11 @@ On older versions, connect the phone by USB once and run `adb tcpip 5555`, unplu
 
 Wireless adds some delay and can drop frames on a weak connection. A lower resolution usually helps.
 
+## Screenshots
+
+![PseudoCam main window](screenshots/main.png)
+![PseudoCam settings](screenshots/settings.png)
+
 ## Credits
 
 - [scrcpy](https://github.com/Genymobile/scrcpy) by Genymobile (Apache 2.0)
