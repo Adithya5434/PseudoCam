@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"image/color"
+	_ "embed"
 
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
@@ -23,9 +24,15 @@ const (
 	fps  = 25
 )
 
+//go:embed icon.png
+var iconPNG []byte
+
 func main() {
 	a := app.New()
 	w := a.NewWindow("PseudoCam")
+	icon := fyne.NewStaticResource("icon.png", iconPNG)
+	a.SetIcon(icon)
+	w.SetIcon(icon)
 	w.SetFixedSize(true)
 
 	// vertical spacer
